@@ -1,0 +1,31 @@
+Chemin de configuration détecté : C:\Users\John\AppData\Local\DeadByDaylight\Saved\Config\WindowsClient
+Chemin d'installation détecté : D:\SteamLibrary\steamapps\common\Dead by Daylight
+Configuration sauvegardée dans le slot : 2025-08-17_15-30-05
+
+======================================================
+  Rapport de Performance Avant/Après
+======================================================
+Métrique                    | Avant     | Après     | Changement
+----------------------------|-----------|-----------|-----------
+FPS Moyen                   | 95.2      | 110.5     | 16.1%
+Frametime Médian (ms)       | 10.50     | 9.05      | -13.8%
+P99 Frametime (ms) [Stutter]| 18.25     | 13.50     | -26.0% (plus bas = mieux)
+P1 Frametime (ms) [Fluidité]| 8.50      | 7.95      | -6.5%
+Nombre de Spikes (>16.7ms)  | 152       | 25        | -83.6%
+------------------------------------------------------
+
+VERDICT : Amélioration significative de la stabilité (P99).
+
+--- Diagnostics Système ---
+Statut HAGS (Planification GPU) : Activé
+
+--- Rapport de vérification Windows ---
+(Cette section n'apparaît que si vous lancez la vérification manuellement)
+--- Output of DISM.exe /Online /Cleanup-Image /CheckHealth ---
+Version de l'image : 10.0.19045.2965
+Aucun endommagement du magasin de composants n’a été détecté.
+L’opération a réussi.
+...
+--- Output of sfc.exe /scannow ---
+Le programme de protection des ressources Windows n’a trouvé aucune violation d’intégrité.
+...
